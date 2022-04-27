@@ -9,7 +9,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: I know that hashs have to do with classes inside of ruby. I would have to refresh my memory on the definition of hashes specifically 
 
-  Researched answer: Hashes represent key value pairs inside of Ruby. They are containers for data and they are similar to an Array except that the indexing is done with the help of keys of an object.
+  Researched answer: Hashes in Ruby hold unique key:value pairs. They help us organize AND create data. They are similar to arrays except that instead of their values being referenced by their index, they are referenced by their unique keys.
 
 2. What is a gem?
 
@@ -29,27 +29,26 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: Having a hard time remembering but perhaps it may be databases that are serperate but can be connected if need be.
 
-  Researched answer: A relational database is a databse that stores data in a structured format using rows and colums making it easy to locate and access specific values within. Whay makes it "relational" is the connectedness of the values within the tables. 
-
+  Researched answer: A relational database stores data in tables and rows and makes the data relational by assigning each row of data a unique identifier (primary key). This key can be added to a record in another table where it is called the foreign key. This key connection allows data to be easily referenced between different tables and generally results in data accuracy and consistency. Non-relational databases stores data without the use of tables, rows, or keys. The method of data storage is typically optimatized for the requirements of the type of data being stored.
 
 
 5. What are primary keys? Why are they important?
 
   Your answer: Primary keys help with identifing elementes inside of databases.
 
-  Researched answer: A primary key is the column of column inside a table that contains values that identify each row in the table.
+  Researched answer: In a database, a primary key of a relational table uniquely identifies each record in the table. Databases use keys to compare, sort and store records and to create relationships between records. Primary key are essential to databases because these keys are used to compare and otherwise define relationships between individual records. Never change the primary key after you assign it.
 
 
 
 ## Looking Ahead: Terms for Next Week
 Research and define the following terms to the best of your ability.
 
-1. RESTful routes: a route that provides mapping from HTTP verbs; get,post,put,delete to control CRUD actions.
+1. REST stands for Representattional State Transfer. RESTful routes are pathways providing mapping from HTML to CRUD actions. RESTful routes include: get, new, show, post, edit, put, and delete.
 
-2. JSON: an open standard file format and data interchangable format that uses readable text to store and transmit data.
+2. JSON stands for JavaScript Object Notation. Lightweight format for storing and transporting data. Often used when data is sent from a server to a web page
 
-3. ERB: Ruby code generated, returns a string in the same character encoding as the input string.
+3. ERB: 'erb' Refers to Embedded Ruby, which is a template engine in which Ruby language embeds into HTML.
 
-4. Params: Parameters being pssssed to the conroller via get or post requests. 
+4. Params: URL Paramaters / Query strings; passed thorugh get or post request to trigger crud actions to access informaiton.
 
-5. API: mens application programming interface. a connection between computers or programs. 
+5. API: Application Programming Interface that make sense of the interactions between multiple software external systems. An API is better known as a messenger that takes requests and tells a system what you want to do and then returns the response back to you on a continuous basis. API is how we are kept on constant connectivity.
